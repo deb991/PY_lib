@@ -15,9 +15,9 @@ __author__ = 'JsOzz'
 url = 'https://www.facebook.com'
 webbrowser.open_new(url)
 values = {'Email or Phone-clear': 'Combination',
-          'Email or Phone-email': '9748412981',
+          'Email or Phone-email': '##########',
           'password-clear': 'Combination',
-          'password-password': 'minimumx2'}
+          'password-password': '###########'}
 
 data = urllib.urlencode(values)
 cookies = cookielib.CookieJar()
